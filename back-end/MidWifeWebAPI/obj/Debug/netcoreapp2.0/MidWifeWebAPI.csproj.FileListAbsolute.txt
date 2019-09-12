@@ -1,0 +1,32 @@
+E:/Repository/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.deps.json
+E:/Repository/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.json
+E:/Repository/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.dev.json
+E:/Repository/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+E:/Repository/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
+E:/Repository/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.csproj.CoreCompileInputs.cache
+E:/Repository/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfoInputs.cache
+E:/Repository/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfo.cs
+E:/Repository/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+E:/Repository/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
+/home/dacy/Dacy's Documents/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.deps.json
+/home/dacy/Dacy's Documents/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.json
+/home/dacy/Dacy's Documents/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.dev.json
+/home/dacy/Dacy's Documents/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+/home/dacy/Dacy's Documents/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.csprojAssemblyReference.cache
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.csproj.CoreCompileInputs.cache
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfoInputs.cache
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfo.cs
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+/home/dacy/Dacy's Documents/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.deps.json
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.json
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.runtimeconfig.dev.json
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/bin/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.csprojAssemblyReference.cache
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.csproj.CoreCompileInputs.cache
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfoInputs.cache
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.AssemblyInfo.cs
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.dll
+/home/dacy/Python Development/ASPNET-Core-Angular-Midwife/back-end/MidWifeWebAPI/obj/Debug/netcoreapp2.0/MidWifeWebAPI.pdb
