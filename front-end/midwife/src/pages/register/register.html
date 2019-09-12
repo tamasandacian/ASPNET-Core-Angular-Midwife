@@ -1,0 +1,53 @@
+<ion-header>
+
+  <ion-navbar color="danger">
+    <!-- <ion-title>register</ion-title> -->
+  </ion-navbar>
+
+</ion-header>
+
+
+
+<ion-content padding>
+  <ion-list>
+    <form name="form" (ngSubmit)="f.form.valid && register()" #f="ngForm" novalidate>
+
+      <ion-item [ngClass]="{ 'has-error': f.submitted && !email.valid }">
+        <ion-label>First Name</ion-label>
+        <ion-input class="text-input" type="text" name="firstName" [(ngModel)]="model.firstName" #firstName="ngModel" required></ion-input>
+
+      </ion-item>
+      <ion-label style="color: red; text-align: center" *ngIf="f.submitted && !firstName.valid">First Name is required</ion-label>
+
+      <ion-item [ngClass]="{ 'has-error': f.submitted && !email.valid }">
+        <ion-label>Last Name</ion-label>
+        <ion-input class="text-input" type="text" name="lastName" [(ngModel)]="model.lastName" #lastName="ngModel" required></ion-input>
+
+      </ion-item>
+      <ion-label style="color: red; text-align: center" *ngIf="f.submitted && !lastName.valid">Last Name is required</ion-label>
+
+      <ion-item [ngClass]="{ 'has-error': f.submitted && !email.valid }">
+        <ion-label>Email</ion-label>
+        <ion-input class="text-input" type="email" name="email" [(ngModel)]="model.email" #email="ngModel" required></ion-input>
+
+      </ion-item>
+      <ion-label style="color: red; text-align: center" *ngIf="f.submitted && !email.valid">Email is required</ion-label>
+
+      <ion-item [ngClass]="{ 'has-error': f.submitted && !password.valid }">
+        <ion-label>Password</ion-label>
+        <ion-input class="text-input" type="password" name="password" [(ngModel)]="model.password" #password="ngModel" required></ion-input>
+
+      </ion-item>
+      <ion-label style="color: red; text-align: center" *ngIf="f.submitted && !password.valid">Password is required</ion-label>
+
+
+      <button ion-button color="danger" type="submit" block>Register</button>
+
+      <p class="message" style="text-align: center;">Already Registered?
+          <a (click)="navigateToLoginPage()">Login</a>
+      </p>
+
+    </form>
+
+  </ion-list>
+</ion-content>

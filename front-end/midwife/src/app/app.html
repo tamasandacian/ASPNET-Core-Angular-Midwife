@@ -1,0 +1,29 @@
+
+    <ion-menu [content]="mycontent">
+
+        <ion-header>
+            <ion-toolbar color="danger">
+                <ion-title menuClose detail-none>
+                    <ion-icon name="menu"></ion-icon>
+                </ion-title>
+            </ion-toolbar>
+        </ion-header>
+        <ion-content padding>
+                <ion-list>
+                
+                        <div *ngIf="isAuthenticated">
+                                <h6>Hello {{currentUser.firstName}} {{currentUser.lastName}}</h6>
+                                <img src="" alt="" height="40" >
+                                
+                                <div style="padding-top:50%;">
+                                <button  ion-button block color="light" (click)="logout()">Logout</button>
+                                </div>
+                              </div>
+                            
+                        
+                    </ion-list>
+        </ion-content>
+    </ion-menu>
+
+
+    <ion-nav #mycontent [root]="rootPage"></ion-nav>

@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-datetime class="date" min="2019" max="2019" displayFormat="DD MMM YYYY" [(ngModel)]="date" (ionChange)="getDateValue(date)"></ion-datetime>
+    <ion-title></ion-title>
+
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+  </ion-navbar>
+  <ion-toolbar>
+      <ion-searchbar  [(ngModel)]="searchText" (ionInput)="searchExperience($event)"></ion-searchbar>
+  </ion-toolbar>
+
+
+</ion-header>
+
+
+
+
+ <ion-content padding  no-bounce overflow-scroll="false">
+
+  
+
+  <ion-grid *ngFor="let task of taskList  | search: searchTerm ; let i=index">
+
+    <ion-row>
+      <div class="col">
+        <ion-label style="font-size:12px;" stacked class="task-name" [class.done]="task.isChecked">{{task.title}}</ion-label>
+      </div>
+      <div class="col">
+        <ion-multi-picker class="times" item-content [multiPickerColumns]="noOfTimes" [(ngModel)]="task.noOfTimes" (ionChange)="updateNoOfTimesValue(task)"></ion-multi-picker>
+      </div>
+
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content> 

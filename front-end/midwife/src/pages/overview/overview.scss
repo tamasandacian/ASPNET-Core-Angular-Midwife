@@ -1,0 +1,28 @@
+page-overview {
+    .times {
+        float: right;
+        }
+
+        .title {
+            position: absolute;
+            left: 0;
+            top: 0  ;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+            font-size: 1.4em;
+            color:white;
+        }
+        ion-grid {
+            height: 10%;
+          
+            ion-row {
+              height: 10%;
+              border-bottom: 1px solid grey !important;
+            }
+          }
+
+          .scroll-content {
+            overflow-y: hidden;
+        }
+}

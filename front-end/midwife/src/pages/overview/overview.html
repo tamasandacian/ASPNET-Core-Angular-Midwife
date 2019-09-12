@@ -1,0 +1,30 @@
+<ion-header>
+
+  <ion-navbar color="danger">
+    <ion-title class="title">Overview</ion-title>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding >
+  <button ion-button color="danger" round (click)="exportData()">Export Data</button>
+
+  <ion-grid padding *ngFor="let d of data">
+
+    <ion-row >
+      <div class="col">
+        <ion-label>{{d.title}}</ion-label>
+      </div>
+      <div class="col">
+        <ion-label class="times">{{d.totalNoOfTimes}}</ion-label>
+      </div>
+    </ion-row>
+
+  </ion-grid>
+
+</ion-content>
